@@ -1,0 +1,48 @@
+@media (max-width:767px){
+    .uper-bar .data{
+       margin-bottom: 15px !important
+    }
+    .carousel .carousel-inner h1{
+        font-size: 30px !important
+    }
+    .featured-work p{
+        width: 100% !important
+    }
+    .featured-work ul li{
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin-bottom: 10px
+    }
+    .featured-work .parint-img{
+        padding: 20px
+    }
+    .latest-post .row .card img{
+        max-height: 400px;
+        margin-bottom: 15px
+    }
+    .choose img{
+        margin-bottom: 30px;
+        order: 2
+    }
+    .choose .row:last-child{
+        background-color: #eee;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .contact-us{
+        padding: 40px 0 !important
+    }
+    .contact-us button{
+        margin-top: 20px
+    }
+    .footer .helpful-links{
+        margin-top: 20px
+    }
+    .footer h3{
+        margin-bottom: 20px !important
+    }
+    .copyright ul{
+        justify-content: center !important;
+        margin-top: 10px
+    }
+}

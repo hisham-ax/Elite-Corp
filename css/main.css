@@ -1,0 +1,533 @@
+ 
+/* 
+
+the first color: #08526d
+
+the second color: #ec1c23
+*/
+
+/* start uper bar */
+
+.uper-bar{
+    background-color: #08526d;
+    padding: 10px;
+    color: #fff
+}
+.uper-bar span{
+    color: #bfc6c9
+}
+.uper-bar button{
+    border: 1px solid #ec1c23;
+    background-color: #132b4c;
+    color: #bfc6c9;
+    line-height: 24px;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer
+}
+
+/* end uper bar*/
+
+/* start navbar */
+.navbar{
+    background-color: #fff !important
+}
+.navbar .navbar-brand{
+    color: #08526d;
+    font-weight: bold;
+    font-size: 22px 
+}
+.navbar .navbar-brand span{
+    color: #ec1c23;
+    font-weight: normal
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .dropdown-item:hover{
+    background-color: #ec1c23;
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    color: #ec1c23
+}
+
+/* end navbar */
+
+/* start carousel */
+.slide .carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: left
+}
+.slide .carousel-inner h1{
+    position: absolute;
+    font-size: 60px;
+    z-index: 3;
+    color: #fff;
+    margin-left: 100px
+}
+.slide .carousel-inner h1 span{
+    background-color: #ec1c23;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px
+}
+.slide .carousel-inner .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.5);
+    z-index: 2;
+}
+.carousel .carousel-inner .carousel-item{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel .carousel-inner .slide-1{
+    background-image: url(../images/middle-background.jpg);
+}
+.carousel .carousel-inner .slide-2{
+    background-image: url(../images/Case-Study-Website-Background.jpg);
+}
+.carousel .carousel-inner .slide-3{
+    background-image: url(../images/656665.jpg);
+}
+/* end carousel */
+
+/* start featuers */
+
+.features{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.features h2{
+    margin-bottom: 50px;
+    color: #08526d
+}
+.features .feat{
+    margin-bottom: 15px;
+}
+.features .feat svg{
+    color: #fff  !important;
+    background-color: #ec1c23  !important;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.features .feat h3{
+    margin-bottom: 15px;
+    color: #08526d;
+    font-size: 22px
+}
+/* end featuers */
+
+/* start overview */
+
+.overview{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.overview h3{
+    margin-bottom: 30px;
+}.overview p{
+    width: 80%;
+    margin: 0 auto 20px;
+    line-height: 2
+}
+.overview h4{
+    margin-bottom: 20px;
+    color: #08526d6e;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+.overview button{
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+    line-height: 48px;
+    background-color: #ec1c23;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+    color: #fff;
+    cursor: pointer
+}
+.overview button:hover{
+    background-color: #08526d;
+    border-radius:unset;
+}
+
+/* end overview */
+
+/* start featured work */
+
+.featured-work{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.featured-work h2{
+    margin-bottom: 20px
+}
+.featured-work p{
+    width: 80%;
+    margin: 0 0 10px
+}
+.featured-work ul{
+    margin: 30px auto
+}
+.featured-work ul li{
+    border: 1px solid #08526d;
+    color: #08526d;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.featured-work ul li:hover,
+.featured-work ul li.active{
+    background-color: #ec1c23;
+    color: #fff
+}
+.featured-work .parint-img .row {
+    margin: 0
+}
+.featured-work .parint-img .row .col-md{
+    padding:0;
+    margin: 0;
+}
+.featured-work .parint-img .row .col-md img{
+    width: 100%;
+    opacity: 0.1;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+/* end featured work */
+
+/* start latest posts */
+
+.latest-post{
+    padding-bottom: 50px;
+}
+.latest-post h2{
+    margin-bottom: 20px
+}
+.latest-post .text-title{
+    width: 80%;
+    margin: 0 auto 40px
+}
+.latest-post .row .card{
+    margin-bottom: 20px
+} 
+.latest-post .row .card .card-body{
+    padding: 10px
+}
+.latest-post .row .card .card-body .card-title{
+    color: #08526d
+}
+.latest-post .row .card .card-body .card-text{
+    margin-bottom: 5px
+}
+.latest-post .row .card .card-body a{
+    background-color: #fff;
+    color: #ec1c23;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 20px
+}
+
+/* end latest posts */
+
+/* start testimonials */
+
+.testimonials{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(../images/Case-Study-Website-Background.jpg);
+    background-attachment: fixed;
+    position: relative;
+    color: #fff;
+}
+
+.testimonials .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.7);
+    z-index: 2;
+}
+.testimonials .slide{
+    z-index: 3;
+}
+.testimonials .carousel-inner .carousel-item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.testimonials .carousel-inner .carousel-caption{
+    top: 25%;
+}
+.testimonials .carousel-inner .carousel-caption img{
+    margin-bottom: 10px
+}
+.testimonials .carousel-inner .carousel-caption h5{
+    margin: 0
+}
+.testimonials .carousel-inner .carousel-caption p{
+    color: #fff
+}
+.testimonials .carousel-inner .carousel-caption span{
+     margin-bottom: 30px;
+    display: block
+}
+
+/* end testimonials*/
+
+/* start pricing table */
+
+.pricing-table{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #f7f7f7
+}
+.pricing-table h2{
+    margin-bottom: 20px;;
+    font-weight: bold
+}
+.pricing-table .text-title{
+    width: 80%;
+    margin: 0 auto 40px
+}
+.pricing-table .row{
+    perspective: 600px
+}
+.pricing-table .row .card{
+    margin-bottom: 20px;
+    border: none;
+    padding-top: 35px;
+    transition: all 0.7s
+}
+.pricing-table .row .card:hover{
+    transform: translateZ(20px)
+}
+.pricing-table .row .card:hover p{
+    background-color: #ec1c23;
+    color: #fff
+}
+.pricing-table .row .card:hover a{
+    text-decoration: none;
+    background-color: #08526d
+}
+.pricing-table .row .card h5{
+    color: #08526d
+}
+.pricing-table .row .card p{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #08526d;
+    font-weight: bold;
+    background-color: #eeeeee7d;
+    padding: 10px;
+    transition: all 0.7s 
+}
+.pricing-table .row .card p span{
+    font-size: 12px;
+    text-transform: uppercase
+}
+.pricing-table .row .card .list-group-item{
+    border: none
+}
+.pricing-table .row .card a{
+    background-color: #ec1c23;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    margin:  20px auto 35px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 150px;
+    display: inline-block;
+    transition: all 0.7s 
+}
+
+/* end pricing table */
+
+/* start choose */
+
+.choose .row img{
+    width: 100%;
+    height: 100%
+}
+.choose .row:last-child{
+    background-color: #085262;
+}
+.choose .row:last-child h2{
+    margin-top: 20px;
+     color: #fff
+}
+.choose .row:last-child p{
+    color:#fff;
+    margin-bottom: 10px
+}
+
+/* end choose */
+
+/* start statistics */
+
+.statistics{
+    margin: 70px 0;
+    color: #08526d
+}
+.statistics svg{
+    margin-top: 20px
+}
+.statistics .row span{
+    display: block;
+    font-size:33px;
+    font-weight: bold
+}
+.statistics p{
+    color: #ec1c23;
+    font-weight: bold
+}
+
+/* end statistics */
+
+/* start contact us */
+
+
+.contact-us{
+    background-color: #ec1c23;
+    padding: 90px 0;
+    color: #fff;
+
+}
+.contact-us p{
+    color: inherit;
+    margin: 0;
+    text-transform: capitalize;    
+    font-size: 25px
+}
+.contact-us button{
+    max-width: 150px;
+    max-height: 40px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 5px 10px 7px;
+    text-transform: uppercase
+}
+
+/* end contact us */
+
+/* start footer */
+
+.footer{
+    padding: 100px 0
+}
+.footer .info>span{
+    font-size: 40px
+}
+.footer .info span:first-of-type{
+    color: #08526d;
+    font-weight: bold
+}
+.footer .info span:last-of-type{
+    color: #ec1c23;
+}
+.footer .info p{
+    margin-top: 20px
+}
+.footer .info a::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f138";
+    margin-right: 5px
+}
+.footer .helpful-links h3{
+    margin-bottom: 40px
+}
+.footer .info a,
+.footer .helpful-links h3,
+.footer .contact h3,
+.footer .helpful-links ul{
+    color: #08526d
+}
+.footer .helpful-links ul li::before{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    font-size: 12px
+}
+.footer .contact h3{
+     margin-bottom: 40px
+}
+.footer .contact ul li{
+    color: #9a9090;
+}
+.footer .contact ul li:nth-of-type(2){
+    line-height: 4.5
+}
+
+/* end footer */
+
+.divider{
+    height: 3px;
+    width: 100%;
+    background-color: #eee
+}
+
+/* start copyright */
+
+.copyright{
+    padding: 20px
+}
+.copyright .row p{
+    margin-bottom: 0
+}
+.copyright .row ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0
+}
+.copyright .row ul li{
+    margin-right: 20px
+}
+
+/* end copyright */
+
+/* start custom class */
+
+.h2{
+    color: #08526d;
+    font-size: 2rem;
+}
+p{
+    color: #9a9090;
+}
+.light{
+    opacity: 1
+}
+
+/* end custom class */
