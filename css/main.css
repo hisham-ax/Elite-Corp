@@ -92,13 +92,13 @@ the second color: #ec1c23
     background-size: cover;
 }
 .carousel .carousel-inner .slide-1{
-    background-image: url(../images/middle-background.jpg);
+    background-image: url(images/middle-background.jpg);
 }
 .carousel .carousel-inner .slide-2{
-    background-image: url(../images/Case-Study-Website-Background.jpg);
+    background-image: url(images/Case-Study-Website-Background.jpg);
 }
 .carousel .carousel-inner .slide-3{
-    background-image: url(../images/656665.jpg);
+    background-image: url(images/656665.jpg);
 }
 /* end carousel */
 
@@ -260,7 +260,7 @@ the second color: #ec1c23
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url(../images/Case-Study-Website-Background.jpg);
+    background-image: url(images/Case-Study-Website-Background.jpg);
     background-attachment: fixed;
     position: relative;
     color: #fff;
